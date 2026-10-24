@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/malaga_airport_image.jpg" alt="Málaga Airport" width="60%">
+  <img src="images/malaga_airport_analytics_project_image_main.png" alt="Málaga Airport" width="60%">
 </p>
 
 <h1 align="center">✈️ Malaga Airport Analytics</h1>
