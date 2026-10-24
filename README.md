@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/malaga_airport_image.jpg" alt="Málaga Airport" width="40%">
+  <img src="images/malaga_airport_image.jpg" alt="Málaga Airport" width="60%">
 </p>
 
 <h1 align="center">✈️ Malaga Airport Analytics</h1>
@@ -46,7 +46,7 @@ The project processes large-scale aviation datasets stored in **Parquet format**
 ## 📈 Data Visualization
 
 <p align="center">
-  <img src="images/flights_cities.png" alt="Monthly Flight Activity" width="40%">
+  <img src="images/flights_cities.png" alt="Monthly Flight Activity" width="60%">
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@ The project processes large-scale aviation datasets stored in **Parquet format**
 </p>
 <br>
 <p align="center">
-  <img src="images/daily_flight.png" alt="Monthly Flight Activity" width="40%">
+  <img src="images/daily_flight.png" alt="Monthly Flight Activity" width="60%">
 </p>
 
 <p align="center">
