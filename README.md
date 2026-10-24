@@ -1,79 +1,88 @@
-# ✈️ Malaga Airport Analytics
+<p align="center">
+  <img src="images/malaga_airport_image.jpg" alt="Málaga Airport" width="40%">
+</p>
 
-**Flight Routes Analysis: September 2026**
+<h1 align="center">✈️ Malaga Airport Analytics</h1>
 
-A personal data analysis project exploring flight routes, origins, and destinations at **Málaga-Costa del Sol Airport (AGP / LEMG)** using real aviation data.
+<p align="center">
+  <strong>Exploring real-world aviation data with Python and Pandas</strong>
+</p>
 
-The goal is to discover the most frequent flight connections between Málaga and other airports while practicing data analysis with Python.
+<p align="center">
+  Flight Routes | Airport Traffic | Seasonal Trends
+</p>
 
-## Project Objectives
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
 
-- Identify the most frequent flight destinations from Málaga.
-- Discover which airports send the most flights to Málaga.
-- Explore connections between Málaga and different countries.
-- Analyze real flight data using Pandas.
-- Visualize results with Matplotlib.
 
-## Datasets
+A personal **Exploratory Data Analysis (EDA)** project investigating flight activity, routes, origins, and destinations at **Málaga-Costa del Sol Airport (AGP / LEMG)** using real-world aviation data.
 
-This project uses:
+## 📊 Project at a Glance
 
-**Flight List — OpenSky Network**
+| 🌍 Global Flight Data | ✈️ Málaga Records | 📅 Period |
+|:---:|:---:|:---:|
+| **~13.5M estimated** | **146,638** | **9 months** |
+| Worldwide flights | Málaga-related records | Jan–Sep 2026 |
 
-Flight records from September 2026, including:
+The project processes large-scale aviation datasets stored in **Parquet format**, filtering worldwide flight records to analyze airport activity in Málaga.
 
-- Flight dates
-- Departure and arrival airports
-- Aircraft identifiers and models
+## 🗂️ Data Sources
 
-**Airport Codes — OurAirports**
+- **[OpenSky Network](https://opensky-network.org/)** - Worldwide flight records stored in monthly Parquet files, containing millions of observations.
+- **[OurAirports](https://ourairports.com/data/)** - Airport names, ICAO codes, countries, and geographical information.
 
-Airport reference data containing:
+## 📓 Analysis Notebooks
 
-- Airport names
-- ICAO airport codes
-- Countries and locations
+| Notebook | Analysis |
+|---|---|
+| 📗 [January–September 2026](notebooks/analysis_2026.ipynb) | Extended analysis, monthly trends, route evolution and visualizations |
+| 📘 [September 2026](notebooks/analysis_sep2026.ipynb) | Data exploration, flight routes, top destinations and origins |
 
-**Data sources:**
-- [OpenSky Network](https://opensky-network.org/)
-- [OurAirports](https://ourairports.com/data/)
+## 📈 Data Visualization
 
-## Technologies
+<p align="center">
+  <img src="images/flights_cities.png" alt="Monthly Flight Activity" width="40%">
+</p>
 
-- **Python** Data analysis
-- **Pandas** Data exploration, filtering, grouping and merging
-- **Matplotlib** Data visualization
-- **Jupyter Notebook** Analysis and documentation
-- **Parquet / CSV** Data storage
+<p align="center">
+  <em>Top 10 Origin Cities for Flights to Málaga</em>
+</p>
+<br>
+<p align="center">
+  <img src="images/daily_flight.png" alt="Monthly Flight Activity" width="40%">
+</p>
 
-## Analysis
+<p align="center">
+  <em>Daily Arrivals and Departures at Málaga Airport</em>
+</p>
 
-The Jupyter notebook includes:
+<p align="center">
+  <em>and more...</em>
+</p>
 
-1. **Data Loading** Importing the datasets.
-2. **Dataset Overview**  Exploring columns, data types and dimensions.
-3. **Data Quality**  Checking missing values and duplicates.
-4. **Malaga Airport Flights**  Filtering departures and arrivals.
-5. **Top 10 Destinations**  Most frequent destinations from Málaga.
-6. **Top 10 Origins**  Most frequent origins of flights arriving in Málaga.
+## 🔍 Key Findings
 
-Additional analysis and visualizations may be added as the project develops.
+- **146,638** Málaga-related flight records analyzed.
+- **July:** Highest recorded activity with **22,065 flights**.
+- **January:** Lowest recorded activity with **5,803 flights**.
+- Recorded flight activity generally increased toward the summer months.
 
-## View the Analysis
+> **Note:** Results reflect available OpenSky records and may not represent all airport operations. Global record volume is estimated, not yet verified.
 
-Open [analysis.ipynb](analysis.ipynb) to explore the Python code, tables and visualizations directly on GitHub.
+## 📌 About This Project
 
-The notebook contains saved outputs, so visitors can review the analysis without running Python locally.
+Personal project developed while studying **Artificial Intelligence & Big Data**, focusing on Python, Pandas, data processing, and visualization.
 
-## Data Limitations
-
-- The current analysis focuses on September 2026.
-- Results represent flight records available in the source dataset, not necessarily all airport operations.
-- Flight counts do not represent passenger numbers.
-- Missing airport information may affect some results.
-
-## Project Status
-
-**In progress** This project is being developed as part of my learning journey in Artificial Intelligence and Big Data.
-
-Future improvements may include additional months of flight data, country-level analysis and more visualizations.
+<br>
+<div align="center">
+  <i>Made by</i>
+  <br>
+  <a href="https://github.com/guilleodev">
+    <img src="https://raw.githubusercontent.com/guilleodev/guilleodev/main/guilleODEVWhite-transparent.png" alt="guilleODEV" width="125">
+  </a>
+</div>
